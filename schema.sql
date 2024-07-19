@@ -12,8 +12,6 @@ CREATE TABLE player (
     UNIQUE (name)
 );
 
-CREATE TABLE 
-
 CREATE TABLE leaderboard (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     position INTEGER NOT NULL,

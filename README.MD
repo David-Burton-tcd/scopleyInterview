@@ -45,3 +45,9 @@ And verifying that the database has updated. I used "DB Browser for SQLite" to v
 
 Further to this, the file `testing_script.py` can be run to verify the operation of the battle engine as the fully operational endpoint to show this has not been implemented yet.
 
+Lastly, to run some unit tests you can run the following:
+
+```
+python -m unittest controlTests.py
+```
+
