@@ -26,3 +26,22 @@ You can then start the flask application using:
 ```
 flask run
 ```
+
+To initialize the database, please run:
+
+```
+python initDB.py
+```
+
+Finally, once this is up and running, you can verifiy that the create user endpoint works by running:
+
+```
+curl --location 'http://127.0.0.1:5000/player' \
+--header 'Content-Type: application/json' \
+--data '{ "name": "testName" }'
+```
+
+And verifying that the database has updated. I used "DB Browser for SQLite" to view the database.
+
+Further to this, the file `testing_script.py` can be run to verify the operation of the battle engine as the fully operational endpoint to show this has not been implemented yet.
+
